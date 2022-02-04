@@ -1,0 +1,118 @@
+
+:root {
+ --main-color: #212121; 
+ --secondary-color: #757575;
+ --accent-color: #2196F3;
+ --title-color: #FFFFFF; 
+ --additional-color: rgba(255, 255, 255, 0.6);
+ --background-color: #F5F4FA;
+}
+   
+   
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--main-color)
+    font-size: 26px
+    font-weight: bold;
+}
+.body {
+    font-family: 'Roboto','Noto Sans', sans-serif;
+    color: var(--main-color);
+}
+
+
+.part-logo {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav-link:hover, :focus {
+color: var(--accent-color);
+}
+.contact {
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+}
+
+.contact:hover, :focus {
+    color: var(--accent-color);
+}
+.contact-footer {
+    color: var(--additional-color);
+    font-weight: normal;
+    font-size: 14px;
+    font-style: normal;
+}
+.contact-footer:hover, :focus {
+    color: var(--accent-color);
+}
+.address {
+    color: var(--title-color);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.hero-text {
+    color: var(--title-color);
+    font-weight: 900;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+.main-button {
+    color: var(--title-color);
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.features-point{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.description {
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size: 14px;
+}
+.speciality {
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size: 16px;
+}
+.activity .team{
+    font-weight: bold;
+    font-size: 36px;
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+}
+.project {
+    font-weight: bold;
+    font-size: 18px;
+}
+.text {
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size: 16px;
+
+}
+.menu {
+    color: var(--main-color);
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+.menu:hover, :focus {
+    color: var(--title-color);
+    background-color: var(--accent-color);
+}
