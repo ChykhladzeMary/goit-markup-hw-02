@@ -8,7 +8,9 @@
  --background-color: #F5F4FA;
 }
    
-   
+   li {
+    list-style-type: none; 
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
