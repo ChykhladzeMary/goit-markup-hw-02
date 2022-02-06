@@ -14,25 +14,33 @@
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    color: var(--main-color)
-    font-size: 26px
-    font-weight: bold;
+    color: var(--main-color);
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 0,8;
+    letter-spacing: 0.03em;
+    
 }
-.body {
-    font-family: 'Roboto','Noto Sans', sans-serif;
+
+body {
+    font-family: 'Roboto', sans-serif;
     color: var(--main-color);
 }
 
 
 .part-logo {
     color: var(--accent-color);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .nav-link {
     color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
+    text-decoration: none;
+    line-height: 0,9;
+    letter-spacing: 0.02em;
 }
 .nav-link:hover, :focus {
 color: var(--accent-color);
@@ -41,25 +49,32 @@ color: var(--accent-color);
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
-    font-style: normal;
+    text-decoration: none;
+    line-height: 0,9;
+    letter-spacing: 0.02em;
 }
 
-.contact:hover, :focus {
+.contact:hover, .contact:focus {
     color: var(--accent-color);
 }
 .contact-footer {
     color: var(--additional-color);
-    font-weight: normal;
     font-size: 14px;
     font-style: normal;
+    line-height: 0,6;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
-.contact-footer:hover, :focus {
+.contact-footer:hover, .contact-footer:focus {
     color: var(--accent-color);
 }
-.address {
+ 
+.map {
     color: var(--title-color);
-    font-weight: normal;
     font-size: 14px;
+    line-height: 0,6;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .hero-text {
@@ -67,54 +82,78 @@ color: var(--accent-color);
     font-weight: 900;
     font-size: 44px;
     text-transform: uppercase;
+    line-height: 0,7;
+    letter-spacing: 0.06em;
 }
 .main-button {
     color: var(--title-color);
     background-color: var(--accent-color);
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     cursor: pointer;
+    line-height: 0,5;
+    letter-spacing: 0.06em;
 }
 
 .features-point{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    line-height: 0,9;
+    letter-spacing: 0.03em;
 }
 .description {
     color: var(--secondary-color);
-    font-weight: normal;
     font-size: 14px;
+    line-height: 0,6;
+    letter-spacing: 0.03em;
+
 }
 .speciality {
     color: var(--secondary-color);
-    font-weight: normal;
     font-size: 16px;
+    line-height: 0,8;
+    letter-spacing: 0.03em;
 }
 .activity .team{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
+    line-height: 0,9;
+    letter-spacing: 0.03em;
 }
 .team-member {
     font-weight: 500;
     font-size: 16px;
+    line-height: 0,8;
+    letter-spacing: 0.03em;
 }
 .project {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
+    font-weight: bold;
+    line-height: 0,5;
+    letter-spacing: 0.06em;
+
 }
 .text {
     color: var(--secondary-color);
-    font-weight: normal;
     font-size: 16px;
+    line-height: 1,9;
+    letter-spacing: 0.03em;
+
 
 }
 .menu {
     color: var(--main-color);
     background-color: var(--background-color);
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0,6;
+    letter-spacing: 0.03em;
+    
 }
-.menu:hover, :focus {
+.menu:hover, .menu:focus {
     color: var(--title-color);
     background-color: var(--accent-color);
 }
