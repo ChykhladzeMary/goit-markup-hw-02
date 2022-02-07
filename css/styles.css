@@ -7,7 +7,11 @@
  --additional-color: rgba(255, 255, 255, 0.6);
  --background-color: #F5F4FA;
 }
-   
+   body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+}
+
    li {
     list-style-type: none; 
 }
@@ -18,15 +22,11 @@
     font-size: 26px;
     font-weight: 700;
     text-decoration: none;
-    line-height: 0,8;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--main-color);
-}
 
 
 .part-logo {
@@ -39,7 +39,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
-    line-height: 0,9;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 .nav-link:hover, :focus {
@@ -50,7 +50,7 @@ color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
-    line-height: 0,9;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -60,21 +60,29 @@ color: var(--accent-color);
 .contact-footer {
     color: var(--additional-color);
     font-size: 14px;
-    font-style: normal;
-    line-height: 0,6;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
+    
 }
 .contact-footer:hover, .contact-footer:focus {
     color: var(--accent-color);
 }
  
+.contacts-footer {
+    background-color: green;
+}
+.studio-logo {
+    color: var(--title-color);
+}
 .map {
     color: var(--title-color);
     font-size: 14px;
-    line-height: 0,6;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    font-style: normal;
 }
 
 .hero-text {
@@ -82,8 +90,9 @@ color: var(--accent-color);
     font-weight: 900;
     font-size: 44px;
     text-transform: uppercase;
-    line-height: 0,7;
+    line-height: 1.36;
     letter-spacing: 0.06em;
+    background-color: green;
 }
 .main-button {
     color: var(--title-color);
@@ -91,7 +100,7 @@ color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     cursor: pointer;
-    line-height: 0,5;
+    line-height: 1.88;
     letter-spacing: 0.06em;
 }
 
@@ -99,46 +108,46 @@ color: var(--accent-color);
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
-    line-height: 0,9;
+    line-height: 1.14;
     letter-spacing: 0.03em;
 }
 .description {
     color: var(--secondary-color);
     font-size: 14px;
-    line-height: 0,6;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 
 }
 .speciality {
     color: var(--secondary-color);
     font-size: 16px;
-    line-height: 0,8;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.activity .team{
+.caption{
     font-weight: 700;
     font-size: 36px;
-    line-height: 0,9;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
 .team-member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0,8;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 .project {
     font-weight: 700;
     font-size: 18px;
     font-weight: bold;
-    line-height: 0,5;
+    line-height: 2;
     letter-spacing: 0.06em;
 
 }
 .text {
     color: var(--secondary-color);
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1,88;
     letter-spacing: 0.03em;
 
 
@@ -149,7 +158,7 @@ color: var(--accent-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0,6;
+    line-height: 1.63;
     letter-spacing: 0.03em;
     
 }
