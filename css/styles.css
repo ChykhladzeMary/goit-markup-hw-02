@@ -5,7 +5,8 @@
  --accent-color: #2196F3;
  --title-color: #FFFFFF; 
  --additional-color: rgba(255, 255, 255, 0.6);
- --background-color: #F5F4FA;
+ --background-color-menu: #F5F4FA;
+ --background-color-basic: #2F303A;
 }
    body {
     font-family: 'Roboto', sans-serif;
@@ -71,7 +72,7 @@ color: var(--accent-color);
 }
  
 .contacts-footer {
-    background-color: green;
+    background-color: var(--background-color-basic);
 }
 .studio-logo {
     color: var(--title-color);
@@ -92,7 +93,7 @@ color: var(--accent-color);
     text-transform: uppercase;
     line-height: 1.36;
     letter-spacing: 0.06em;
-    background-color: green;
+    background-color: var(--background-color-basic);
 }
 .hero-button {
     color: var(--title-color);
@@ -154,7 +155,7 @@ color: var(--accent-color);
 }
 .menu {
     color: var(--main-color);
-    background-color: var(--background-color);
+    background-color: var(--background-color-menu);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
