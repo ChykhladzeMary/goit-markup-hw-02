@@ -7,6 +7,7 @@
  --additional-color: rgba(255, 255, 255, 0.6);
  --background-color-menu: #F5F4FA;
  --background-color-basic: #2F303A;
+ --background-main-btn: #188CE8;
 }
    body {
     font-family: 'Roboto', sans-serif;
@@ -16,6 +17,8 @@
    li {
     list-style-type: none; 
 }
+
+/* Логотип */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -67,7 +70,8 @@ color: var(--accent-color);
     font-style: normal;
     
 }
-.contact-footer:hover, .contact-footer:focus {
+.contact-footer:hover,
+.contact-footer:focus {
     color: var(--accent-color);
 }
  
@@ -96,6 +100,7 @@ color: var(--accent-color);
     background-color: var(--background-color-basic);
 }
 .hero-button {
+    font-family: inherit;
     color: var(--title-color);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -103,6 +108,10 @@ color: var(--accent-color);
     cursor: pointer;
     line-height: 1.88;
     letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+background-color: var(--background-main-btn);
 }
 
 .features-point{
@@ -159,9 +168,10 @@ color: var(--accent-color);
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63;
+    line-height: 1.64;
     letter-spacing: 0.03em;
     
+
 }
 .menu:hover, .menu:focus {
     color: var(--title-color);
